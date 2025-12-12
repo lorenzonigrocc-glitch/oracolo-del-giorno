@@ -3,21 +3,59 @@
 @tailwind utilities;
 
 :root {
-  --background: #f5f2eb;
-  --foreground: #2c2c2c;
+  --background: #0f172a; /* Deep slate/blue */
+  --foreground: #e2e8f0; /* Soft silver */
+  --accent: #94a3b8;
 }
 
 body {
-  background: var(--background);
+  background: radial-gradient(circle at 50% 50%, #1e293b 0%, #0f172a 100%);
   color: var(--foreground);
-  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  font-family: var(--font-cormorant), 'Georgia', serif;
+  min-height: 100vh;
 }
 
 @keyframes fade-in {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(20px); filter: blur(5px); }
+  to { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+@keyframes breathe {
+  0% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.02); }
+  100% { opacity: 0.8; transform: scale(1); }
 }
 
 .animate-fade-in {
-  animation: fade-in 1s ease-out forwards;
+  animation: fade-in 1.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-breathe {
+  animation: breathe 6s ease-in-out infinite;
+}
+
+/* Custom scrollbar for webkit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+/* 3D Flip Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
 }

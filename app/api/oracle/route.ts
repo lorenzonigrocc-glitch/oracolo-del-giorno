@@ -78,7 +78,7 @@ IMPORTANTE: Usa un italiano grammaticalmente perfetto, colto e fluido. Evita err
 
 Rispondi ESCLUSIVAMENTE in formato JSON con questa struttura:
 {
-  "interpretazione": "La tua interpretazione mistica e saggia (max 120 parole)",
+  "interpretazione": "La tua interpretazione mistica e saggia (max 60 parole, deve essere concisa per entrare in una carta)",
   "archetipo": "Il nome esatto dell'archetipo scelto dalla lista",
   "saluto": "Un breve saluto finale mistico"
 }
