@@ -1,6 +1,7 @@
 ﻿'use client';
 
 import { useState, useEffect } from 'react';
+import { useClickSound, useHoverSound } from './utils/audio/audio';
 
 type Aforisma = {
   tema: string;
@@ -30,6 +31,9 @@ export default function Home() {
   const [hasAskedToday, setHasAskedToday] = useState(false);
   const [mounted, setMounted] = useState(false);
 
+  const clickSound = useClickSound();
+  const hoverSound = useHoverSound();
+
   useEffect(() => {
     setMounted(true);
     const lastAsked = localStorage.getItem('oracle_last_asked');
@@ -55,7 +59,7 @@ export default function Home() {
 
       const data = await response.json();
       setResult(data);
-      
+
       const today = new Date().toISOString().split('T')[0];
       localStorage.setItem('oracle_last_asked', today);
       setHasAskedToday(true);
@@ -90,6 +94,8 @@ export default function Home() {
               type='submit'
               disabled={loading || !question.trim()}
               className='mt-4 px-8 py-3 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed font-serif tracking-wider'
+              onClick={clickSound}
+              onMouseOver={hoverSound}
             >
               {loading ? 'Consultando lo spazio tra bit ed atomo...' : 'Chiedi all\'Oracolo'}
             </button>
@@ -108,7 +114,7 @@ export default function Home() {
 
       {result && (
         <div className='animate-fade-in max-w-2xl w-full space-y-12 py-12'>
-          
+
           {/* Aforisma */}
           <section className='space-y-4'>
             <h3 className='text-sm uppercase tracking-widest text-gray-400'>L'Aforisma</h3>
