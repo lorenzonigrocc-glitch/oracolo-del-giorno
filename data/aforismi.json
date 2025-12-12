@@ -1,0 +1,122 @@
+[
+  {
+    "tema": "cambiamento",
+    "emozione": "coraggio",
+    "autore": "Lao Tzu",
+    "testo": "Un viaggio di mille miglia comincia sempre con un primo passo."
+  },
+  {
+    "tema": "coraggio",
+    "emozione": "determinazione",
+    "autore": "Anaïs Nin",
+    "testo": "La vita si restringe o si espande in proporzione al nostro coraggio."
+  },
+  {
+    "tema": "identità",
+    "emozione": "ricerca",
+    "autore": "Friedrich Nietzsche",
+    "testo": "Diventa ciò che sei."
+  },
+  {
+    "tema": "amore",
+    "emozione": "apertura",
+    "autore": "Rainer Maria Rilke",
+    "testo": "L’amore consiste in questo, che due solitudini si proteggono, si toccano, si salutano."
+  },
+  {
+    "tema": "libertà",
+    "emozione": "speranza",
+    "autore": "Amelia Earhart",
+    "testo": "La libertà non è mai data; è conquistata."
+  },
+  {
+    "tema": "perseveranza",
+    "emozione": "forza",
+    "autore": "Nelson Mandela",
+    "testo": "Sembra sempre impossibile, finché non viene fatto."
+  },
+  {
+    "tema": "consapevolezza",
+    "emozione": "chiarezza",
+    "autore": "Thich Nhat Hanh",
+    "testo": "Il miracolo non è camminare sulle acque. Il miracolo è camminare sulla terra."
+  },
+  {
+    "tema": "silenzio",
+    "emozione": "introspezione",
+    "autore": "Blaise Pascal",
+    "testo": "Tutta l'infelicità degli uomini deriva da una sola cosa: non saper restare tranquilli in una stanza."
+  },
+  {
+    "tema": "tempo",
+    "emozione": "accettazione",
+    "autore": "Seneca",
+    "testo": "Non è vero che abbiamo poco tempo: ne abbiamo perso molto."
+  },
+  {
+    "tema": "creatività",
+    "emozione": "slancio",
+    "autore": "Pablo Picasso",
+    "testo": "Ogni bambino è un artista. Il problema è rimanerlo una volta cresciuti."
+  },
+  {
+    "tema": "perdono",
+    "emozione": "guarigione",
+    "autore": "Mahatma Gandhi",
+    "testo": "Il debole non perdona mai. Il perdono è un attributo dei forti."
+  },
+  {
+    "tema": "scelta",
+    "emozione": "dubbio",
+    "autore": "Albert Camus",
+    "testo": "La vera generosità verso il futuro consiste nel dare tutto al presente."
+  },
+  {
+    "tema": "saggezza",
+    "emozione": "serenità",
+    "autore": "Marco Aurelio",
+    "testo": "La felicità della tua vita dipende dalla qualità dei tuoi pensieri."
+  },
+  {
+    "tema": "desiderio",
+    "emozione": "passione",
+    "autore": "Joseph Campbell",
+    "testo": "Segui la tua felicità e l’universo aprirà porte dove c’erano solo muri."
+  },
+  {
+    "tema": "vuoto",
+    "emozione": "confusione",
+    "autore": "Carl Gustav Jung",
+    "testo": "Chi guarda fuori sogna, chi guarda dentro si sveglia."
+  },
+  {
+    "tema": "azione",
+    "emozione": "slancio",
+    "autore": "Bruce Lee",
+    "testo": "Be water, my friend."
+  },
+  {
+    "tema": "speranza",
+    "emozione": "rinascita",
+    "autore": "Albert Einstein",
+    "testo": "La vita è come andare in bicicletta. Per mantenere l’equilibrio devi muoverti."
+  },
+  {
+    "tema": "verità",
+    "emozione": "riconoscimento",
+    "autore": "Khalil Gibran",
+    "testo": "La verità è una profonda gentilezza che ci insegna ad essere contenti nella nostra vita quotidiana."
+  },
+  {
+    "tema": "volontà",
+    "emozione": "determinazione",
+    "autore": "Epitteto",
+    "testo": "Non sono le cose a turbare gli uomini, ma le opinioni che essi formano sulle cose."
+  },
+  {
+    "tema": "solitudine",
+    "emozione": "ricerca",
+    "autore": "Hermann Hesse",
+    "testo": "Incominciare è già metà dell’opera."
+  }
+]

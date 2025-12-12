@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "La Soglia",
+    "descrizione": "Ogni cambiamento inizia quando il passo teme il vuoto ma lo sfiora comunque.",
+    "tema": "transizione",
+    "energia": "possibilità"
+  },
+  {
+    "nome": "Il Ponte",
+    "descrizione": "Due rive lontane spesso attendono solo un gesto perché si parlino.",
+    "tema": "connessione",
+    "energia": "dialogo"
+  },
+  {
+    "nome": "La Torcia",
+    "descrizione": "Un lume modesto basta per svelare ciò che già sapevi, ma non vedevi.",
+    "tema": "rivelazione",
+    "energia": "chiarezza"
+  },
+  {
+    "nome": "L’Acqua Quietata",
+    "descrizione": "Solo quando la superficie tace, il fondo si lascia osservare.",
+    "tema": "ascolto",
+    "energia": "calma"
+  },
+  {
+    "nome": "La Radice Antica",
+    "descrizione": "Ciò che ti sostiene non grida, ma resta.",
+    "tema": "identità",
+    "energia": "stabilità"
+  },
+  {
+    "nome": "Il Sentiero Curvo",
+    "descrizione": "La via che non vedi è spesso più vera di quella che insegui.",
+    "tema": "fiducia",
+    "energia": "apertura"
+  },
+  {
+    "nome": "La Porta Socchiusa",
+    "descrizione": "Non sempre serve spalancare: a volte basta guardare meglio.",
+    "tema": "opportunità",
+    "energia": "sensibilità"
+  },
+  {
+    "nome": "Il Vento Errante",
+    "descrizione": "Il vento non domanda: prova e poi scorre.",
+    "tema": "movimento",
+    "energia": "leggerezza"
+  },
+  {
+    "nome": "Il Focolare",
+    "descrizione": "Anche il fuoco riposa nella brace prima di ardere di nuovo.",
+    "tema": "cura",
+    "energia": "rinnovamento"
+  },
+  {
+    "nome": "La Montagna Silente",
+    "descrizione": "La montagna non pretende, e per questo rimane.",
+    "tema": "fermezza",
+    "energia": "prospettiva"
+  }
+]
